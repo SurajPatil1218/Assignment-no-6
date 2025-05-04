@@ -13,13 +13,13 @@ Input Field
 
 Operation Buttons
 
-+ for Addition
++  for Addition
 
-- for Subtraction
+-  for Subtraction
 
-* for Multiplication
+*  for Multiplication
 
- .  for Division
+ / for Division
 
    Equal Button (=)
 
