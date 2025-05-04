@@ -19,9 +19,9 @@ Operation Buttons
 
 * for Multiplication
 
- / for Division
+ .  for Division
 
- Equal Button (=)
+   Equal Button (=)
 
 4. Evaluates the operation between the two entered numbers and displays the result.
 
