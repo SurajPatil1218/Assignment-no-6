@@ -1,42 +1,70 @@
 # Assignment 6: GUI Calculator Using Tkinter
-Problem Statement
-Create a graphical calculator application in Python using the Tkinter library that allows the user to perform basic arithmetic operations like addition, subtraction, multiplication, and division.
+Develop a Python application that:
+
+1. Presents a graphical interface for input and output.
+
+2. Allows users to perform:
+
+   Addition
+
+   Subtraction
+
+   Multiplication
+
+   Division
+
+3. Accepts input via clickable buttons (no keyboard input required).
+
+4. Displays real-time results and clears input when requested.
+
+
 
 Solution 
-1. Functionality Implemented
-Input Field
+1. Entry Widget
 
-2. A text entry field to show and receive input from button clicks.
- Number Buttons (0–9)
+   Displays numbers and results.
 
-3 . Buttons for digits from 0 to 9 to form numbers.
+   Acts as the calculator’s screen.
 
-Operation Buttons
+2. Buttons
 
-+  for Addition
+   Digits (0–9): Used for numeric input.
 
--  for Subtraction
+   Operators (+, −, ×, ÷): Trigger arithmetic operations.
+ 
+   Equal (=): Executes the operation and displays the result.
 
-*  for Multiplication
+   Clear (C): Clears the screen for a new calculation.
 
- / for Division
+# Functional Workflow
 
-   Equal Button (=)
+1. Number Input
 
-4. Evaluates the operation between the two entered numbers and displays the result.
+   Each digit button appends its value to the screen.
 
-5. Clear Button
-Clears the input field.
+2. Operation Selection
 
-Step-by-Step Execution
-1. The user clicks on number buttons to input a value.
+   When an operator button is clicked:
 
-2. On clicking an operator (+, -, *, /), the first number is stored and the operator is remembered.
+   The current number is stored as the first operand.
 
-3. The user enters the second number using the number buttons.
+   The selected operation is remembered.
 
-4. Pressing = calculates the result based on the chosen operator.
+   The input field is cleared for the next number.
 
-5. Pressing Clear clears the current input from the entry field.
+3. Execution
+
+   On pressing =, the program:
+
+   Retrieves the second operand.
+
+   Performs the stored operation.
+
+   Displays the result in the input field.
+
+4. Reset
+
+   Clicking  clears the display and resets stored values.
+
 
 
